@@ -1,0 +1,9 @@
+[servers]
+server1 ansible_host=192.168.56.151 ansible_user=kier
+test3 ansible_host=192.168.56.155 ansible_user=kier
+
+[server_centos]
+centos ansible_host=192.168.56.154 ansible_user=kiersanjose 
+
+[fileservers]
+server1 ansible_host=192.168.56.151 ansible_user=kier
