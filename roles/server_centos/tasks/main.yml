@@ -1,5 +1,5 @@
 ---
 - name: Install Nagios on CentOS
-  ansible.builtin.dnf:
+  yum:
     name: nagios
     state: present
