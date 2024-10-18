@@ -1,0 +1,9 @@
+- hosts: server
+  become: true
+  roles:
+    - server
+
+- hosts: server_centos
+  become: true
+  roles:
+    - server_centos
