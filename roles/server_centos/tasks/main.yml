@@ -3,3 +3,5 @@
   dnf:
     name: nagios
     state: present
+    retries: 3
+    delay: 5
