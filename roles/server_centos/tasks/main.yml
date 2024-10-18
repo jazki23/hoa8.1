@@ -1,0 +1,5 @@
+---
+- name: Install Nagios on CentOS
+  yum:
+    name: nagios
+    state: present
