@@ -1,5 +1,5 @@
 ---
-- name: Install Nagios on CentOS
+- name: Install Nagios on CentOS using dnf
   yum:
     name: nagios
     state: present
